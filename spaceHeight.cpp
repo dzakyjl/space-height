@@ -1,22 +1,20 @@
 #include <iostream>
 using namespace std;
-
-#include <iostream>
  
 int main() {
  
   double weight;
   int x;
  
-  std::cout << "Please enter your current earth weight: ";
-  std::cin >> weight;
+  cout << "Please enter your current earth weight: " << endl;
+  cin >> weight;
  
-  std::cout << "\nI have information for the following planets:\n\n";
-  std::cout << "   1. Venus   2. Mars    3. Jupiter\n";
-  std::cout << "   4. Saturn  5. Uranus  6. Neptune\n\n";
+  cout << "\nI have information for the following planets:\n\n" << endl;
+  cout << "   1. Venus   2. Mars    3. Jupiter\n" << endl;
+  cout << "   4. Saturn  5. Uranus  6. Neptune\n\n" << endl;
  
-  std::cout << "Which planet are you visiting? ";
-  std::cin >> x;
+  cout << "Which planet are you visiting? " << endl;
+  cin >> x;
  
   if (x == 1) {
  
@@ -44,6 +42,7 @@ int main() {
  
   }
  
-  std::cout << "\nYour weight: " << weight << "\n";
- 
+  cout << "\nYour weight: " << weight << "\n" << endl;
+
+  return 0;
 }
